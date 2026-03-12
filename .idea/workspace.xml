@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dacaab65-3cc9-4e35-ac4c-2b53ce6b047a" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Piece/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Piece/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Piece/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Piece/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Piece/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Piece/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Piece/Rook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/b-bishop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/b-king.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/b-knight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/b-pawn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/b-queen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/b-rook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/w-bishop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/w-king.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/w-knight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/w-pawn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/w-queen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/piece/w-rook.png" afterDir="false" />
+    <list default="true" id="dacaab65-3cc9-4e35-ac4c-2b53ce6b047a" name="Changes" comment="board display">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Piece/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Piece/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Piece/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Piece/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Piece/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Piece/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Piece/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Piece/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Piece/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Piece/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Piece/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Piece/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Piece/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Piece/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GamePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1773335940976</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="board display">
+      <created>1773341091151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773341091151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="board display" />
+    <option name="LAST_COMMIT_MESSAGE" value="board display" />
   </component>
 </project>

@@ -24,7 +24,9 @@ public class GamePanel extends JPanel implements Runnable{
     public GamePanel(){
         setPreferredSize(new Dimension(WIDTH, HEIGHT));
         setBackground(Color.BLACK);
+
         setPieces();
+        copyPieces(pieces, simPieces);
     }
     public void launchGame(){
         gameThread = new Thread(this);
@@ -67,6 +69,14 @@ public class GamePanel extends JPanel implements Runnable{
         pieces.add(new King(BLACK, 4, 0));
     }
 
+    private void copyPieces(ArrayList<Piece>source, ArrayList<Piece>target){
+        target.clear();
+        for (int i = 0; i < source.size(); i++) {
+            target.add(source.get(i));
+
+        }
+    }
+
     public void run(){
         double drawInterval = 1000000000/FPS;
         double delta = 0;
@@ -96,5 +106,10 @@ public class GamePanel extends JPanel implements Runnable{
         Graphics2D g2 = (Graphics2D)g;
 
         board.draw(g2);
+
+        for (Piece p:simPieces) {
+            p.draw(g2);
+
+        }
     }
 }
